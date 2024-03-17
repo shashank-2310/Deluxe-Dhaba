@@ -1,0 +1,47 @@
+{
+    "chefs": [
+        {
+            "name": "Hector Salamanca",
+            "experience": "12 YOE",
+            "pizza_specialty": "Margherita Pizza",
+            "image": "@/assets/chef1.png",
+            "description": "Hector's love for pizza started in her grandmother's kitchen, where she learned the art of making the perfect Margherita."
+
+        },
+        {
+            "name": "Mario Rossi",
+            "experience": "15 YOE",
+            "pizza_specialty": "Neapolitan Pizza",
+            "image": "@/assets/chef2.png",
+            "description": "With over 15 years of experience in crafting authentic Neapolitan pizzas, Mario brings a true taste of Italy to every dish."
+        },
+        {
+            "name": "Luigi Verdi",
+            "experience": "10 YOE",
+            "pizza_specialty": "Pepperoni Pizza",
+            "image": ".@/assets/chef3.png",
+            "description": "Luigi's passion for pizza shines through in every slice of his Pepperoni Pizza. Luigi brings a true taste of Italy to every dish."
+        },
+        {
+            "name": "Giovanni Romano",
+            "experience": "8 YOE",
+            "pizza_specialty": "Vegetarian Pizza",
+            "image": "@/assets/chef4.png",
+            "description": "Luigi's passion for pizza shines through in every slice of his Pepperoni Pizza. Giovanni brings a true taste of Italy to every dish."
+        },
+        {
+            "name": "Moretti Gus",
+            "experience": "6 YOE",
+            "pizza_specialty": "BBQ Chicken Pizza",
+            "image": "@/assets/chef5.png",
+            "description": "Moretti's BBQ Chicken Pizza is a crowd-pleaser, thanks to her unique blend of tangy BBQ sauce, tender chicken, and melty cheese."
+        },
+        {
+            "name": "Gustav",
+            "experience": "9 YOE",
+            "pizza_specialty": "BBQ Chicken Pizza",
+            "image": "@/assets/chef5.png",
+            "description": "Moretti's BBQ Chicken Pizza is a crowd-pleaser, thanks to her unique blend of tangy BBQ sauce, tender chicken, and melty cheese."
+        }
+    ]
+}

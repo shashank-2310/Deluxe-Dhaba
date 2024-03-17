@@ -1,0 +1,40 @@
+{
+    "menuItems": [
+        {
+            "id": 1,
+            "title": "Margherita Pizza",
+            "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "title": "Pepperoni Pizza",
+            "description": "A timeless favorite topped with spicy pepperoni slices and cheese.",
+            "price": 15
+        },
+        {
+            "id": 3,
+            "title": "Vegetarian Pizza",
+            "description": "Loaded with fresh vegetables like bell peppers, onions, and mushrooms.",
+            "price": 12
+        },
+        {
+            "id": 4,
+            "title": "Hawaiian Pizza",
+            "description": "Sweet and savory mix of pineapple, ham, and mozzarella cheese.",
+            "price": 18
+        },
+        {
+            "id": 5,
+            "title": "BBQ Chicken Pizza",
+            "description": "Grilled chicken, onions, and tangy BBQ sauce on a crispy crust.",
+            "price": 20
+        },
+        {
+            "id": 6,
+            "title": "Supreme Pizza",
+            "description": "The ultimate combination of meats, veggies, and cheese for pizza lovers.",
+            "price": 25
+        }
+    ]
+}

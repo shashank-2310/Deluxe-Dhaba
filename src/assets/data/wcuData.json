@@ -1,0 +1,20 @@
+{
+    "wcuData": [
+        {
+            "title": "Community Hub",
+            "description": "At St. Pizza, you're not just a customer; you're family. Join us in our welcoming atmosphere, where good food and good company go hand in hand."
+        },
+        {
+            "title": "Endless Variety",
+            "description": "Whether you're a traditionalist or an adventurous eater, our diverse menu has something for everyone. Explore new flavors or stick to your favorites, the choice is yours."
+        },
+        {
+            "title": "Unforgettable Memories",
+            "description": "Create moments to cherish with friends and loved ones over a shared pizza experience. At St. Pizza, every visit is a memory in the making."
+        },
+        {
+            "title": "Commitment to Excellence",
+            "description": "We're committed to excellence in everything we do, striving to exceed your expectations with every pizza we serve."
+        }
+    ]
+}
