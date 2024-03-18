@@ -17,7 +17,7 @@ const Header = () => {
             <Link className="" href="/">
                 <Image src={logo} alt='logo' width={90} height={90} className='rounded-full w-1/2 sm:w-auto' />
             </Link>
-            <nav className="flex flex-wrap items-center gap-4 sm:gap-8 text-gray-500 font-semibold">
+            <nav className="flex flex-wrap items-center gap-3 sm:gap-8 text-gray-500 font-semibold">
                 <Link
                     href={'/'}
                     className={`link ${pathname === '/' ? 'active text-black' : ''} hover:text-black`}>
