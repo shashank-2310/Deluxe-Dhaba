@@ -7,7 +7,7 @@ import Email from '@/assets/icons/Email';
 import Clock from '@/assets/icons/Clock';
 import Form from './Form';
 
-import veg from "@/assets/vegetables.png";
+import spices from "@/assets/food/spices.png";
 import Image from 'next/image';
 import Socials from '@/assets/icons/Socials';
 
@@ -18,19 +18,19 @@ const page = () => {
             <Sallad />
             <div className="flex flex-col gap-2 sm:gap-4">
                 <h4 className='sm:text-xl text-base mt-5 sm:mt-10 '>
-                    Got a question, feedback, or just craving some <span className='text-primaryPizza'>pizza</span>? We&rsquo;re here for you! Feel free to reach out to us using any of the following methods:
+                    Got a question, feedback, or just craving the taste of <span className='text-primary capitalize'>desi thali</span>, We&rsquo;re here for you! Feel free to reach out to us using any of the following methods:
                 </h4>
                 <div className="sm:text-lg text-base">
                     <p className='flex flex-row gap-5 my-2 items-center'>
-                        <span className='rounded-full p-1 hover:bg-black text-white bg-primaryPizza'><Phone /></span>
+                        <span className='rounded-full p-1 hover:bg-black text-white bg-primary'><Phone /></span>
                         Phone: +91 123 567 8901
                     </p>
                     <p className='flex flex-row gap-5 my-2 items-center'>
-                        <span className='hover:bg-black bg-primaryPizza text-white rounded-full p-1'><Email /></span>
-                        Email: stpizza@gmail.com
+                        <span className='hover:bg-black bg-primary text-white rounded-full p-1'><Email /></span>
+                        Email: deluxedhaba@gmail.com
                     </p>
                     <p className='flex flex-row gap-5 my-2 items-center'>
-                        <span className='hover:bg-black bg-primaryPizza text-white rounded-full p-1'><Clock /></span>
+                        <span className='hover:bg-black bg-primary text-white rounded-full p-1'><Clock /></span>
                         Visiting hours: Monday to Sunday [9:00AM - 8:00PM]
                     </p>
                     <div className="w-auto h-auto">
@@ -43,10 +43,10 @@ const page = () => {
                         Or, fill the form given below and our team will get back to you:
                     </p>
                     <div className="flex flex-row justify-between items-center">
-                        <div className="sm:w-1/2 mx-auto bg-primaryPizza/30 rounded-3xl px-4 sm:px-6 py-2 sm:py-3 my-3 sm:my-5 ">
+                        <div className="sm:w-1/2 mx-auto bg-primary/30 rounded-3xl px-4 sm:px-6 py-2 sm:py-3 my-3 sm:my-5 ">
                             <Form />
                         </div>
-                        <Image src={veg} alt='vegetables' className='-z-10 w-1/2 float hidden sm:block' />
+                        <Image src={spices} alt='vegetables' className='-z-10 w-1/2 float hidden sm:block' />
                     </div>
                 </div>
             </div>

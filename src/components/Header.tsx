@@ -6,12 +6,17 @@ import { usePathname } from 'next/navigation'
 
 import User from "@/assets/icons/User";
 import Cart from "@/assets/icons/Cart";
+import Image from 'next/image';
+
+import logo from "@/assets/logo.png"
 
 const Header = () => {
     const pathname = usePathname()
     return (
         <header className="flex flex-wrap items-center justify-between">
-            <Link className="text-primaryPizza font-semibold text-lg sm:text-2xl" href="/">ST PIZZA</Link>
+            <Link className="" href="/">
+                <Image src={logo} alt='logo' width={90} height={90} className='rounded-full' />
+            </Link>
             <nav className="flex flex-wrap items-center gap-4 sm:gap-8 text-gray-500 font-semibold">
                 <Link
                     href={'/'}
@@ -35,11 +40,11 @@ const Header = () => {
                 </Link>
                 <Link
                     href={'/'}
-                    className="bg-primaryPizza hover:bg-black text-white rounded-full px-3 py-1 sm:px-5 sm:py-2 flex gap-2">
+                    className="bg-primary hover:bg-black text-white rounded-full px-3 py-1 sm:px-5 sm:py-2 hidden sm:flex gap-2">
                     Login
                     <span className='w-6'><User /></span>
                 </Link>
-                <Link href={''} className="hover:bg-black bg-primaryPizza text-white rounded-full p-1 sm:p-2">
+                <Link href={''} className="hover:bg-black bg-primary text-white rounded-full p-1 sm:p-2">
                     <Cart />
                 </Link>
             </nav>

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Socials = () => {
     return (
-        <div className='flex flex-row items-center gap-5 text-primaryPizza text-2xl sm:text-4xl w-full'>
+        <div className='flex flex-row items-center gap-5 text-primary text-2xl sm:text-4xl w-full'>
 
             <Link className='hover:text-black' target='_blank' href='https://www.facebook.com'><FaFacebook /></Link>
             <Link className='hover:text-black' target='_blank' href='https://www.twitter.com'><FaTwitter /></Link>

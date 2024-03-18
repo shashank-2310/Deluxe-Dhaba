@@ -3,14 +3,14 @@
 import React from 'react'
 import SectionHeader from './ui/SectionHeader';
 import Link from 'next/link';
-import PizzaCard from './cards/PizzaCard';
+import DhabaCard from './cards/DhabaCard';
 import MenuCard from './cards/MenuCard';
 
-import pizzaMenu from "@/assets/pizzaMenu.webp"
-import p1 from "@/assets/p1.jpg";
-import p2 from "@/assets/p2.jpg";
-import p3 from "@/assets/p3.jpg";
-import p4 from "@/assets/p4.jpg";
+import dhabaMenu from "@/assets/food/dhabaMenu.webp"
+import thali3 from "@/assets/food/thali3.jpg";
+import pavBhaji from "@/assets/food/pavBhaji.jpg";
+import thali2 from "@/assets/food/thali2.jpg";
+import dishes from "@/assets/food/dishes.jpg";
 
 const WhatWeOffer = () => {
     return (
@@ -20,45 +20,35 @@ const WhatWeOffer = () => {
                 SubHeader={"checkout our services"}
             />
             <div className="text-black flex flex-col sm:flex-row sm:justify-between items-center sm:mt-10 mt-5">
-                <div className="flex flex-col sm:items-center sm:justify-center text-left text-base space-y-2 sm:space-y-11">
+                <div className="flex flex-col sm:items-center sm:justify-center text-left text-base space-y-2 sm:space-y-6">
                     <p className='sm:w-3/4 text-left'>
-                        At St. Pizza, we offer more than just great pizza—we offer an unforgettable dining experience that&rsquo;s sure to delight your senses and leave you craving for more.
+                    At<span className='font-medium text-primary'>&nbsp;Deluxe Dhaba</span>, we offer a tantalizing array of authentic Indian dishes meticulously crafted to delight your palate and ignite your senses.
                     </p>
-                    <p className='w-3/4 font-medium my-1 text-left'>
-                        🍕 Endless Variety: Check our&nbsp;
-                        <Link href={"/menu"} className='text-primaryPizza underline'>
-                            Menu
+                    <p className='w-3/4 my-1 text-left'>
+                        <span className='font-medium'>Tandoori Specialties:</span> Indulge in our sizzling selection of tandoori delights, including tender marinated meats, succulent kebabs, and flavorful naan bread straight from the clay oven.
+                    </p>
+                    <p className='sm:w-3/4 my-1 text-left'>
+                        <span className='font-medium'>Vegetarian Delights:</span> Discover the diversity of vegetarian cuisine with our extensive range of plant-based dishes, showcasing the vibrant flavors of fresh vegetables, lentils, and spices.
+                    </p>
+                    <p className='sm:w-3/4 my-1 text-left'>
+                        <span className='font-medium'>Special Menus:</span> Whether you&rsquo;re celebrating a special occasion or hosting a corporate event, our customizable special menus cater to your specific preferences and dietary requirements.
+                        <Link href={"/about"} className='text-primary underline'>
+                            (Check our Menu)
                         </Link>
                     </p>
-                    <p className='sm:w-3/4 font-medium my-1 text-left'>
-                        🍕 Community Connection:&nbsp;
-                        <Link href={"/contact"} className='text-primaryPizza underline'>
-                            Contact
-                        </Link>
-                        &nbsp;us to be a part of our community
-                    </p>
-                    <p className='sm:w-3/4 font-medium my-1 text-left'>
-                        🍕 Authentic Flavors: Know more&nbsp;
-                        <Link href={"/about"} className='text-primaryPizza underline'>
-                            About Us
-                        </Link>
-                    </p>
-                    <p className='sm:w-3/4 font-medium my-1 text-left'>
-                        🍕 Endless Variety: Our diverse menu offers something for&nbsp;everyone, no matter your taste preferences.
-                    </p>
-                    <p className='sm:w-3/4 font-medium my-1 text-left'>
-                        🍕 Warm Hospitality: At St. Pizza, you&rsquo;re not just a customer,&nbsp;you&rsquo;re part of our family.
+                    <p className='sm:w-3/4 my-1 text-left'>
+                        <span className='font-medium'>Street Food Specials:</span> Take a culinary journey through the bustling streets of India with our selection of street food favorites, from crispy samosas and spicy chaats to indulgent dosas and flavorful pav bhaji.
                     </p>
                 </div>
                 <div className="mt-5 sm:mt-0">
-                    <MenuCard img={pizzaMenu} />
+                    <MenuCard img={dhabaMenu} />
                 </div>
             </div>
             <div className="grid grid-cols-2 w-full gap-2 sm:mt-10 mt-5">
-                <PizzaCard img={p1} />
-                <PizzaCard img={p2} />
-                <PizzaCard img={p3} />
-                <PizzaCard img={p4} />
+                <DhabaCard img={thali3} />
+                <DhabaCard img={pavBhaji} />
+                <DhabaCard img={thali2} />
+                <DhabaCard img={dishes} />
             </div>
         </section>
     )

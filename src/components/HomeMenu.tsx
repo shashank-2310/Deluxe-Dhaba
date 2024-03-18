@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from "next/image"
+import Link from 'next/link';
 
 import MenuItemCard from './cards/MenuItemCard';
 import menuData from '@/assets/data/menuData.json'
@@ -13,7 +14,8 @@ interface menuItems {
     id: number,
     title: string,
     description: string,
-    price: number,
+    image: string,
+    price: number
 }
 
 
@@ -38,10 +40,16 @@ const HomeMenu = () => {
                             key={menuItem.id}
                             title={menuItem.title}
                             description={menuItem.description}
+                            image={menuItem.image}
                             price={menuItem.price}
                         />
                     ))
                 }
+            </div>
+            <div className="mt-5 flex items-center justify-center">
+                <Link href={"/menu"} className='capitalize hover:bg-black bg-primary text-white text-center sm:font-medium sm:px-4 sm:py-2 py-1 px-2 text-xs sm:text-sm rounded-full'>
+                    view full menu
+                </Link>
             </div>
         </section>
     )

@@ -27,7 +27,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryPizza: '#f13a01',
+        primary: '#8B4513',
       },
       animation: {
         scroll:

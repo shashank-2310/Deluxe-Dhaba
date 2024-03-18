@@ -7,22 +7,22 @@ const faqs = [
     {
         id: 1,
         question: "What are your opening hours?",
-        answer: "We are open from Monday to Sunday, from 11:00 AM to 10:00 PM."
+        answer: "We are open from 11:00 AM to 10:00 PM every day of the week."
     },
     {
         id: 2,
-        question: "Do you offer gluten-free pizza?",
-        answer: "Yes, we offer gluten-free pizza crust as an option for our customers with dietary restrictions."
+        question: "Do you offer vegetarian options?",
+        answer: "Yes, we have a wide range of delicious vegetarian dishes to choose from."
     },
     {
         id: 3,
-        question: "Can I customize my pizza order?",
-        answer: "Absolutely! You can choose from a variety of toppings, sauces, and crust options to customize your pizza just the way you like it."
+        question: "Do you provide catering services for events?",
+        answer: "Yes, we offer catering services for various events. Please contact us for more details and to discuss your requirements."
     },
     {
         id: 4,
-        question: "Do you offer delivery services?",
-        answer: "Yes, we offer delivery services within a 5-mile radius of our restaurant. Simply place your order online or give us a call, and we'll deliver your favorite pizzas right to your doorstep."
+        question: "Is it possible to make reservations?",
+        answer: "Yes, we accept reservations for both small and large groups. Please call us or use our online reservation system to book a table."
     }
 ];
 

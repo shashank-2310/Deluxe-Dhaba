@@ -13,7 +13,7 @@ const Footer = () => {
                 <div>
                     <h2 className="text-white text-lg font-medium mb-4">About Us</h2>
                     <p className="mb-4 text-left">
-                        At St. Pizza, we take pride in our craft, sourcing the finest ingredients and handcrafting each pizza with care and attention to detail. 
+                        Deluxe Dhaba is not just a restaurant; it&rsquo;s an experience crafted to tantalize your taste buds and transport you to the heart of India&rsquo;s vibrant culinary culture.
                     </p>
                 </div>
                 <div>
@@ -22,7 +22,7 @@ const Footer = () => {
                         <li>
                             <a
                                 href="/"
-                                className="hover:text-primaryPizza transition-colors duration-300"
+                                className="hover:text-primary transition-colors duration-300"
                             >
                                 Home
                             </a>
@@ -30,7 +30,7 @@ const Footer = () => {
                         <li>
                             <a
                                 href="/about"
-                                className="hover:text-primaryPizza transition-colors duration-300"
+                                className="hover:text-primary transition-colors duration-300"
                             >
                                 About
                             </a>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <li>
                             <a
                                 href="/menu"
-                                className="hover:text-primaryPizza transition-colors duration-300"
+                                className="hover:text-primary transition-colors duration-300"
                             >
                                 Menu
                             </a>
@@ -46,7 +46,7 @@ const Footer = () => {
                         <li>
                             <a
                                 href="/contact"
-                                className="hover:text-primaryPizza transition-colors duration-300"
+                                className="hover:text-primary transition-colors duration-300"
                             >
                                 Contact
                             </a>
@@ -56,9 +56,9 @@ const Footer = () => {
                 <div>
                     <h2 className="text-white text-lg font-medium mb-4">Follow Us</h2>
                     <div className="flex space-x-4 text-2xl">
-                        <Link className='hover:text-primaryPizza' target='_blank' href='https://www.facebook.com'><FaFacebook /></Link>
-                        <Link className='hover:text-primaryPizza' target='_blank' href='https://www.twitter.com'><FaTwitter /></Link>
-                        <Link className='hover:text-primaryPizza' target='_blank' href='https://www.instagram.com'><BsInstagram /></Link>
+                        <Link className='hover:text-primary' target='_blank' href='https://www.facebook.com'><FaFacebook /></Link>
+                        <Link className='hover:text-primary' target='_blank' href='https://www.twitter.com'><FaTwitter /></Link>
+                        <Link className='hover:text-primary' target='_blank' href='https://www.instagram.com'><BsInstagram /></Link>
 
                     </div>
                 </div>
@@ -66,11 +66,11 @@ const Footer = () => {
                     <h2 className="text-white text-lg font-medium mb-4">Contact Us</h2>
                     <p>New Delhi, India</p>
                     <p>Delhi 10001</p>
-                    <p>Email: info@stpizza.com</p>
+                    <p>Email: info@dd.com</p>
                     <p>Phone: (+91) 123 456 7890</p>
                 </div>
             </div>
-            <p className="text-center text-sm pt-8 pb-2 text-white underline underline-offset-2">© 2024 ST Pizzza. All rights reserved.</p>
+            <p className="text-center text-sm pt-8 pb-2 text-white underline underline-offset-2">© 2024 Deluxe Dhaba. All rights reserved.</p>
         </footer>
     )
 }

@@ -2,39 +2,45 @@
     "menuItems": [
         {
             "id": 1,
-            "title": "Margherita Pizza",
-            "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil.",
-            "price": 10
+            "title": "Tandoori Chicken",
+            "description": "Tender chicken marinated in yogurt and spices, cooked to perfection in a traditional clay oven.",
+            "image": "/food/tandoori_chicken.webp",
+            "price": 50
         },
         {
             "id": 2,
-            "title": "Pepperoni Pizza",
-            "description": "A timeless favorite topped with spicy pepperoni slices and cheese.",
-            "price": 15
+            "title": "Paneer Tikka",
+            "description": "Chunks of paneer (Indian cottage cheese) marinated in spices and grilled to perfection.",
+            "image": "/food/paneer_tikka.jpeg",
+            "price": 30
         },
         {
             "id": 3,
-            "title": "Vegetarian Pizza",
-            "description": "Loaded with fresh vegetables like bell peppers, onions, and mushrooms.",
-            "price": 12
+            "title": "Butter Chicken",
+            "description": "Tender chicken simmered in a rich and creamy tomato-based gravy, flavored with butter and aromatic spices.",
+            "image": "/food/butter_chicken.jpeg",
+            "price": 40
         },
         {
             "id": 4,
-            "title": "Hawaiian Pizza",
-            "description": "Sweet and savory mix of pineapple, ham, and mozzarella cheese.",
-            "price": 18
+            "title": "Vegetable Biryani",
+            "description": "Fragrant basmati rice cooked with mixed vegetables, herbs, and spices, served with raita.",
+            "image": "/food/veg_biryani.webp",
+            "price": 25
         },
         {
             "id": 5,
-            "title": "BBQ Chicken Pizza",
-            "description": "Grilled chicken, onions, and tangy BBQ sauce on a crispy crust.",
+            "title": "Masala Dosa",
+            "description": "A South Indian specialty, crispy crepe filled with a spiced potato filling, served with coconut chutney and sambar.",
+            "image": "/food/masala_dosa.jpg",
             "price": 20
         },
         {
             "id": 6,
-            "title": "Supreme Pizza",
-            "description": "The ultimate combination of meats, veggies, and cheese for pizza lovers.",
-            "price": 25
+            "title": "Gulab Jamun",
+            "description": "Soft and spongy milk solids dumplings soaked in a fragrant sugar syrup, served warm.",
+            "image": "/food/gulab_jamun.jpeg",
+            "price": 10
         }
     ]
 }

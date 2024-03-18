@@ -9,9 +9,8 @@ import Sallad from './ui/Sallad';
 
 interface chef {
     name: string,
-    experience: string,
-    pizza_specialty: string,
-    description: string
+    specialty: string,
+    bio: string
 };
 
 
@@ -31,9 +30,8 @@ const Team = () => {
                         <ChefCard
                             key={chef.name}
                             name={chef.name}
-                            experience={chef.experience}
-                            pizza_specialty={chef.pizza_specialty}
-                            description={chef.description}
+                            specialty={chef.specialty}
+                            bio={chef.bio}
                         />
 
                     ))

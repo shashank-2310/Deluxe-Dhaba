@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react'
-import menuData from '@/assets/data/menuData.json';
+import menuData from '@/assets/data/fullMenu.json';
 import MenuItemCard from '@/components/cards/MenuItemCard';
 import Sallad from '@/components/ui/Sallad';
 
@@ -11,6 +11,7 @@ interface menuItems {
     title: string,
     description: string,
     price: number,
+    image: string
 }
 
 const page = () => {
@@ -26,6 +27,7 @@ const page = () => {
                             title={menuItem.title}
                             description={menuItem.description}
                             price={menuItem.price}
+                            image={menuItem.image}
                         />
                     ))
                 }

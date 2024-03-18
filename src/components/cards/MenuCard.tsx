@@ -17,7 +17,7 @@ const MenuCard: React.FC<img> = ({ img }) => {
                         src={img}
                         height="1000"
                         width="1000"
-                        className="h-[30rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                        className="sm:h-[32rem] h-[22rem] w-full object-cover rounded-xl group-hover/card:shadow-xl"
                         alt="thumbnail"
                     />
                 </CardItem>

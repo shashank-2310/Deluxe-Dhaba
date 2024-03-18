@@ -14,7 +14,7 @@ const Form = () => {
             <label htmlFor="phone" className='mt-2'>Phone Number</label>
             <input type="text" name='phone' className='p-1 my-1 rounded-lg' />
 
-            <button type="submit" className='bg-primaryPizza hover:bg-black my-2 px-4 py-2 w-min text-white rounded-full text-center'>Submit</button>
+            <button type="submit" className='bg-primary hover:bg-black my-2 px-4 py-2 w-min text-white rounded-full text-center'>Submit</button>
         </form>
     )
 }

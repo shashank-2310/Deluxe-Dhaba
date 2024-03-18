@@ -1,47 +1,34 @@
 {
     "chefs": [
         {
-            "name": "Hector Salamanca",
-            "experience": "12 YOE",
-            "pizza_specialty": "Margherita Pizza",
-            "image": "@/assets/chef1.png",
-            "description": "Hector's love for pizza started in her grandmother's kitchen, where she learned the art of making the perfect Margherita."
-
+            "name": "Chef Rahul Sharma",
+            "specialty": "North Indian Cuisine",
+            "bio": "With over 15 years of experience, Chef Rahul specializes in crafting authentic dishes from the rich culinary traditions of North India. His expertise lies in creating flavorful curries, succulent tandoori delights, and aromatic biryanis."
         },
         {
-            "name": "Mario Rossi",
-            "experience": "15 YOE",
-            "pizza_specialty": "Neapolitan Pizza",
-            "image": "@/assets/chef2.png",
-            "description": "With over 15 years of experience in crafting authentic Neapolitan pizzas, Mario brings a true taste of Italy to every dish."
+            "name": "Chef Priya Patel",
+            "specialty": "South Indian Cuisine",
+            "bio": "Hailing from the southern region of India, Chef Priya brings the vibrant flavors of South Indian cuisine to the table. Her specialties include crispy dosas, spicy sambar, and a variety of coconut-based curries."
         },
         {
-            "name": "Luigi Verdi",
-            "experience": "10 YOE",
-            "pizza_specialty": "Pepperoni Pizza",
-            "image": ".@/assets/chef3.png",
-            "description": "Luigi's passion for pizza shines through in every slice of his Pepperoni Pizza. Luigi brings a true taste of Italy to every dish."
+            "name": "Chef Rajesh Singh",
+            "specialty": "Mughlai Cuisine",
+            "bio": "Chef Rajesh is a master of Mughlai cuisine, known for its rich and indulgent flavors. With a focus on royal delicacies like buttery kebabs, creamy kormas, and fragrant biryanis, he brings a taste of royalty to every dish."
         },
         {
-            "name": "Giovanni Romano",
-            "experience": "8 YOE",
-            "pizza_specialty": "Vegetarian Pizza",
-            "image": "@/assets/chef4.png",
-            "description": "Luigi's passion for pizza shines through in every slice of his Pepperoni Pizza. Giovanni brings a true taste of Italy to every dish."
+            "name": "Chef Meera Das",
+            "specialty": "Vegetarian Cuisine",
+            "bio": "Passionate about vegetarian cooking, Chef Meera creates innovative and delectable dishes that celebrate the diverse flavors of vegetables and spices. From hearty lentil curries to crispy pakoras, her creations are a feast for both the eyes and the palate."
         },
         {
-            "name": "Moretti Gus",
-            "experience": "6 YOE",
-            "pizza_specialty": "BBQ Chicken Pizza",
-            "image": "@/assets/chef5.png",
-            "description": "Moretti's BBQ Chicken Pizza is a crowd-pleaser, thanks to her unique blend of tangy BBQ sauce, tender chicken, and melty cheese."
+            "name": "Chef Sanjay Kapoor",
+            "specialty": "Street Food",
+            "bio": "With a keen understanding of street food culture, Chef Sanjay brings the vibrant and eclectic flavors of Indian street food to the forefront. From spicy chaats to indulgent pav bhaji, his creations capture the essence of the bustling streets of India."
         },
         {
-            "name": "Gustav",
-            "experience": "9 YOE",
-            "pizza_specialty": "BBQ Chicken Pizza",
-            "image": "@/assets/chef5.png",
-            "description": "Moretti's BBQ Chicken Pizza is a crowd-pleaser, thanks to her unique blend of tangy BBQ sauce, tender chicken, and melty cheese."
+            "name": "Chef Ayesha Khan",
+            "specialty": "Desserts",
+            "bio": "Dessert aficionado Chef Ayesha specializes in crafting irresistible sweet treats that leave a lasting impression. From classic favorites like gulab jamun to innovative creations like saffron-infused kheer, her desserts are the perfect ending to any meal."
         }
     ]
 }

@@ -2,11 +2,11 @@
 
 import Image from 'next/image';
 import React from 'react'
-import pizzaStacked from '@/assets/pizza_stacked.webp'
+import logo from '@/assets/logo.png'
 
 const AboutImage = () => {
     return (
-        <Image src={pizzaStacked} alt='pizza_stacked' className='max-w-sm' />
+        <Image src={logo} alt='logo' className='max-w-sm mr-5 -z-10 rounded-xl' />
     )
 }
 

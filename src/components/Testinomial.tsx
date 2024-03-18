@@ -8,30 +8,30 @@ import Sallad from "./ui/Sallad";
 
 const testimonials = [
     {
-        quote: "St. Pizza never disappoints! Their pizzas are always fresh, delicious, and delivered with a smile.",
-        name: "John Smith",
-        title: "Pizza Lover"
+        "quote": "The food at Deluxe Dhaba is simply outstanding! Every dish bursts with flavor and authenticity. Highly recommended!",
+        "name": "Samantha Patel",
+        "title": "Food Critic"
     },
     {
-        quote: "I've tried pizzas from all over, but nothing compares to St. Pizza's Margherita. It's simply perfection on a plate!",
-        name: "Emily Johnson",
-        title: "Food Enthusiast"
+        "quote": "As an Indian food enthusiast, I can confidently say that Deluxe Dhaba serves some of the best Indian cuisine I've ever tasted outside of India.",
+        "name": "Rajesh Kumar",
+        "title": "Indian Cuisine Connoisseur"
     },
     {
-        quote: "St. Pizza has become our go-to spot for family dinners. Their diverse menu ensures there's something for everyone, and the quality is consistently excellent.",
-        name: "Michael Brown",
-        title: "Happy Customer"
+        "quote": "I hosted a family dinner at Deluxe Dhaba, and everyone was blown away by the quality of the food and the warmth of the service. Truly exceptional!",
+        "name": "Emily Johnson",
+        "title": "Happy Customer"
     },
     {
-        quote: "As a vegetarian, I appreciate the variety of options at St. Pizza. Their Vegetarian Pizza is always flavorful and satisfying.",
-        name: "Sarah Davis",
-        title: "Vegetarian Advocate"
+        "quote": "Being a vegetarian, I'm always on the lookout for restaurants with great veg options. Deluxe Dhaba exceeded my expectations with their flavorful vegetarian dishes!",
+        "name": "Amita Rao",
+        "title": "Vegetarian Food Enthusiast"
     },
     {
-        quote: "St. Pizza not only serves great food but also contributes positively to the community. It's a win-win!",
-        name: "David Wilson",
-        title: "Community Member"
-    },
+        "quote": "I recently celebrated my birthday at Deluxe Dhaba, and it was an unforgettable experience. The food, ambiance, and service were all top-notch. Thank you for making my day special!",
+        "name": "Michael Smith",
+        "title": "Satisfied Patron"
+    }
 ];
 
 const Testinomial = () => {
@@ -41,7 +41,7 @@ const Testinomial = () => {
                 MainHeader={"Testinomials"}
                 SubHeader={"know what our customers say"}
             />
-            <Sallad/>
+            <Sallad />
             <div className="flex flex-row justify-center items-center gap-1 text-yellow-400/95 text-2xl text-center">
                 <FaStar />
                 <span className="text-3xl"><FaStar /></span>
