@@ -6,18 +6,15 @@ import { usePathname } from 'next/navigation'
 
 import User from "@/assets/icons/User";
 import Cart from "@/assets/icons/Cart";
-import Image from 'next/image';
-
-import logo from "@/assets/logo.png"
 
 const Header = () => {
     const pathname = usePathname()
     return (
-        <header className="flex flex-wrap items-center justify-between">
-            <Link className="" href="/">
-                <Image src={logo} alt='logo' width={90} height={90} className='rounded-full w-1/2 sm:w-auto' />
+        <header className="flex flex-row flex-wrap items-center justify-between">
+            <Link className="uppercase text-lg sm:text-3xl font-semibold text-primary" href="/">
+                Deluxe Dhaba
             </Link>
-            <nav className="flex flex-wrap items-center gap-3 sm:gap-8 text-gray-500 font-semibold">
+            <nav className="flex flex-wrap items-center gap-5 sm:gap-8 text-gray-500 font-semibold">
                 <Link
                     href={'/'}
                     className={`link ${pathname === '/' ? 'active text-black' : ''} hover:text-black`}>
