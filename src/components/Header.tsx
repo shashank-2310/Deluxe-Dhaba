@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <header className="flex flex-wrap items-center justify-between">
             <Link className="" href="/">
-                <Image src={logo} alt='logo' width={90} height={90} className='rounded-full' />
+                <Image src={logo} alt='logo' width={90} height={90} className='rounded-full w-1/2 sm:w-auto' />
             </Link>
             <nav className="flex flex-wrap items-center gap-4 sm:gap-8 text-gray-500 font-semibold">
                 <Link
