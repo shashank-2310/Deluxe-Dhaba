@@ -41,7 +41,7 @@ const Header = () => {
                     Login
                     <span className='w-6'><User /></span>
                 </Link>
-                <Link href={''} className="hover:bg-black bg-primary text-white rounded-full p-1 sm:p-2">
+                <Link href={''} className="hover:bg-black bg-primary hidden lg:block text-white rounded-full p-1 sm:p-2">
                     <Cart />
                 </Link>
             </nav>
